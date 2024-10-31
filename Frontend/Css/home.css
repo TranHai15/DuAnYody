@@ -25,26 +25,27 @@ h2 {
   align-items: center;
   list-style: none;
   padding: 0;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 20px;
 }
 
 .menu-item a {
   display: block;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 15px 30px;
+  border-radius: 25px;
   font-size: 18px;
+  line-height: 21px;
   color: #333;
   font-weight: 400;
   background-color: #f0f0f0;
   text-decoration: none;
 }
-.menu-item a:hover {
-  background-color: #ffd700;
-}
+
 .menu-item.active a {
-  background-color: #ffd700;
-  color: #fff;
+  background-color: #fcaf17;
+  /* font-size: ; */
+  font-weight: 600;
+  color: #000;
 }
 
 .product-image {
@@ -53,10 +54,6 @@ h2 {
 .product-image > img {
   width: 100%;
   object-fit: cover;
-}
-.product-variation {
-  display: flex;
-  margin-bottom: 10px;
 }
 .product-image {
   width: 100%;
@@ -70,33 +67,52 @@ h2 {
   flex: 0 0 19.3%;
 }
 .titile1 {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 32px;
+  line-height: 46px;
 }
 .product-name {
-  padding-top: 8px;
-}
-.product-price {
-  padding-top: 8px;
+  padding-top: 10px;
   font-size: 16px;
   font-weight: 400;
+  line-height: 24px;
+}
+.product-price {
+  /* padding-top: 8px; */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .product-price .price-new {
   font-size: 20px;
   font-weight: 600;
 }
+.product-variation {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 7px;
+  /* padding-right: 5px; */
+}
 .item-variation {
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
+  /* margin-left: 0px; */
+  margin: 0 0 0 5px;
+  /* line-height: 24px; */
   /* padding: 0 5px; */
   background-color: #ffd700;
   border-radius: 999px;
 }
-
+.first-item {
+  margin: 0 0 5px 0;
+}
 .btn-center {
   display: block;
-  width: 350px;
+  width: 380px;
   height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   border-radius: 10px;
   margin: 15px auto;
 }
@@ -105,7 +121,7 @@ h2 {
   display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 18px 12px;
+  gap: 10px 12px;
 }
 .events img {
   width: 100%;
@@ -124,7 +140,7 @@ h2 {
 /* margin-left: calc((100vw - 100%) / -2); */
 /* }  */
 .title {
-  height: 95px;
+  height: 112px;
   background-color: #000;
   /* align-items: center; */
   text-align: center;
@@ -132,7 +148,7 @@ h2 {
 }
 .title h1 {
   color: #fff;
-  line-height: 95px;
+  line-height: 112px;
   font-weight: 600px;
   font-size: 46px;
 }
