@@ -1,7 +1,6 @@
-header {
-  height: 100px;
-  background-color: red;
-  margin-bottom: 20px;
+.banner1 {
+  display: block;
+  margin-top: 8rem;
 }
 .banner1 img {
   width: 100%;
@@ -18,7 +17,7 @@ h2 {
   font-size: 32px;
   font-weight: 500px;
 }
-.menu {
+.list__select {
   justify-content: center;
   display: flex;
   gap: 10px;
@@ -29,7 +28,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.menu-item a {
+.select-item a {
   display: block;
   padding: 15px 30px;
   border-radius: 25px;
@@ -41,7 +40,7 @@ h2 {
   text-decoration: none;
 }
 
-.menu-item.active a {
+.select-item.active a {
   background-color: #fcaf17;
   /* font-size: ; */
   font-weight: 600;
