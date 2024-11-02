@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <?php require_once(HF . "header.php")  ?>
     <!-- Danh mục sản phẩm -->
     <main>
         <div class="grid wide">
@@ -62,7 +63,7 @@
                                 <input type="checkbox">
                                 <p>Unisex</p>
                             </div>
-                        <hr>
+                            <hr>
 
                         </div>
                         <div class="color">
@@ -133,9 +134,11 @@
                         <div class="main-right-product">
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/mtm4001-3.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/mtm4001-3.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -143,21 +146,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/scm6077-cvt-11-ao-so-mi-nam-3.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/scm6077-cvt-11-ao-so-mi-nam-3.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
-                                    </div>
-                                </div>
-                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
-                                <span>49.000 đ</span>
-                                <br>
-                                <button></button>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/atm6115-bee-qkm6029-vac-3.jpg" alt="">
-                                    <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -167,9 +160,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sum5021-cam-4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/atm6115-bee-qkm6029-vac-3.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -179,9 +174,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-polo-nam-yody-apm7217-nau-4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sum5021-cam-4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -191,9 +188,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-so-mi-nam-coc-tay-scm7009-den-6.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-polo-nam-yody-apm7217-nau-4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -203,9 +202,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/akm5047-ddo-5.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-so-mi-nam-coc-tay-scm7009-den-6.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -215,9 +216,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sqm5015-xdm4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/akm5047-ddo-5.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -227,59 +230,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/qkm6029-vac-atm6115-bee-4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sqm5015-xdm4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
-                                    </div>
-                                </div>
-                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
-                                <span>49.000 đ</span>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm4025-den-3.jpg" alt="">
-                                    <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
-                                    </div>
-                                </div>
-                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
-                                <span>49.000 đ</span>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm5055-den-1.jpg" alt="">
-                                    <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
-                                    </div>
-                                </div>
-                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
-                                <span>49.000 đ</span>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/apm7137-nav-4.jpg" alt="">
-                                    <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
-                                    </div>
-                                </div>
-                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
-                                <span>49.000 đ</span>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/mtm4001-3.jpg" alt="">
-                                    <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
-                                    </div>
-                                </div>
-                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
-                                <span>49.000 đ</span>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/scm6077-cvt-11-ao-so-mi-nam-3.jpg" alt="">
-                                    <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -289,9 +244,71 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/atm6115-bee-qkm6029-vac-3.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/qkm6029-vac-atm6115-bee-4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
+                                <span>49.000 đ</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm4025-den-3.jpg"
+                                        alt="">
+                                    <div class="overlay-image">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
+                                <span>49.000 đ</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm5055-den-1.jpg"
+                                        alt="">
+                                    <div class="overlay-image">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
+                                <span>49.000 đ</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/apm7137-nav-4.jpg"
+                                        alt="">
+                                    <div class="overlay-image">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
+                                <span>49.000 đ</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/mtm4001-3.jpg"
+                                        alt="">
+                                    <div class="overlay-image">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
+                                <span>49.000 đ</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/scm6077-cvt-11-ao-so-mi-nam-3.jpg"
+                                        alt="">
+                                    <div class="overlay-image">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -301,9 +318,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sum5021-cam-4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/atm6115-bee-qkm6029-vac-3.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -313,9 +332,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-polo-nam-yody-apm7217-nau-4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sum5021-cam-4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -325,9 +346,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-so-mi-nam-coc-tay-scm7009-den-6.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-polo-nam-yody-apm7217-nau-4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -337,9 +360,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/akm5047-ddo-5.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-so-mi-nam-coc-tay-scm7009-den-6.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -349,9 +374,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sqm5015-xdm4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/akm5047-ddo-5.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -361,9 +388,25 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/qkm6029-vac-atm6115-bee-4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/sqm5015-xdm4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
+                                <span>49.000 đ</span>
+                                <br>
+                                <button></button>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card-img">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/qkm6029-vac-atm6115-bee-4.jpg"
+                                        alt="">
+                                    <div class="overlay-image">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -371,9 +414,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm4025-den-3.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm4025-den-3.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -381,9 +426,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm5055-den-1.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/tlm5055-den-1.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -391,9 +438,11 @@
                             </div>
                             <div class="product-card">
                                 <div class="product-card-img">
-                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/apm7137-nav-4.jpg" alt="">
+                                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/apm7137-nav-4.jpg"
+                                        alt="">
                                     <div class="overlay-image">
-                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                        <img src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
+                                            alt="">
                                     </div>
                                 </div>
                                 <p>Sơ Mi Nam Bạc Hà Cộc Tay</p>
@@ -408,7 +457,7 @@
         </div>
     </main>
 
-
+    <?php require_once(HF . "footer.php")  ?>
 </body>
 
 </html>

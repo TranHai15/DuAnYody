@@ -3,6 +3,9 @@ require_once("./config.php");
 $url = $_GET['clt'] ?? "";
 
 switch ($url) {
+    case "/":
+        require_once FRONTEND . "Home.php";
+        break;
     case "":
         require_once FRONTEND . "Home.php";
         break;

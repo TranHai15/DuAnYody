@@ -8,7 +8,7 @@
 </head>
 <link rel="stylesheet" href="Frontend/Css/reset.css?ver=2">
 <link rel="stylesheet" href="Frontend/Css/grid.css?ver=1">
-<link rel="stylesheet" href="Frontend/Css/hf.css?ver=434">
+
 <link rel="stylesheet" href="Frontend/Css/home.css?ver=34" />
 
 <body>

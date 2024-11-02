@@ -1,8 +1,9 @@
+<link rel="stylesheet" href="Frontend/Css/hf.css?ver=434">
 <div class="header__kc">
     <header>
         <div class="header grid wide">
             <nav class="header__left row align-items-center">
-                <a href="#">
+                <a href="?clt=/">
                     <div class="header__logo">
                         <img src="Frontend/public/svg/logo.svg" alt="Yody">
                     </div>
@@ -10,7 +11,7 @@
                 <div class="menu">
                     <span class="menu-item"><a href="#" class="menu-item-a ">SALE</a></span>
                     <span class="menu-item"><a href="#" class="menu-item-a ">Mới về</a></span>
-                    <span class="menu-item menu-item-hover"><a href="#" class="menu-item-a ">Nam </a>
+                    <span class="menu-item menu-item-hover"><a href="?clt=category" class="menu-item-a ">Nam </a>
                         <div class="menu__list--cha">
                             <div class="menu__list grid wide row">
                                 <div class="item__list ">
