@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Frontend/Css/reset.css">
     <link rel="stylesheet" href="Frontend/Css/grid.css">
-    <link rel="stylesheet" href="Frontend/Css/category.css?ver=3">
+    <link rel="stylesheet" href="Frontend/Css/category.css?ver=2">
     <title>Danh mục</title>
 </head>
 
@@ -27,7 +27,7 @@
                 <div class="arrange">
                     <h5>334 sản phẩm</h5>
                     <div class="arrange-select">
-                        <button>Sắp xếp theo</button>
+                        <button>Sắp xếp theo <span class="arrange-select-icon"><img src="Frontend/public/svg/filter.svg" alt=""></span></button>
                         <div class="arrange-select-form">
                             <div class="arrange-select-item">1</div>
                             <div class="arrange-select-item">2</div>
@@ -62,7 +62,7 @@
                                 <input type="checkbox">
                                 <p>Unisex</p>
                             </div>
-                        <hr>
+                            <hr>
 
                         </div>
                         <div class="color">
@@ -407,6 +407,7 @@
             </div>
         </div>
     </main>
+
 
 
 </body>
