@@ -40,11 +40,7 @@ h2 {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .select-item.active a {
-=======
-.menu-item.active a {
->>>>>>> 492a1d639708c35b118810489edba94143ece39d
   background-color: #fcaf17;
   /* font-size: ; */
   font-weight: 600;
