@@ -16,7 +16,7 @@ switch ($url) {
         require_once FRONTEND . "pay.php";
         break;
     case "header":
-        require_once "./Frontend/component/client/header.php";
+        require_once "./Frontend/component/client/footer.php";
         break;
     default:
         echo "Page not found!";
