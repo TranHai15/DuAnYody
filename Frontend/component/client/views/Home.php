@@ -9,13 +9,6 @@
     <link rel="stylesheet" href="Frontend/Css/home.css?ver=4" />
     <title>Trang chu</title>
 </head>
-<<<<<<< HEAD
-<link rel="stylesheet" href="Frontend/Css/reset.css?ver=23">
-<link rel="stylesheet" href="Frontend/Css/grid.css?ver=13">
-<link rel="stylesheet" href="Frontend/Css/hf.css?ver=4">
-<link rel="stylesheet" href="Frontend/Css/home.css?ver=3" />
-=======
->>>>>>> 25266b53b043e8b57110559483ccfa92b2f43c3e
 
 <body>
     <?php require_once(HF . "header.php")  ?>
