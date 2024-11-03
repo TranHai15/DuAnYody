@@ -3,9 +3,17 @@
     <div class="baoboc">
         <div class="content">
             <p class="text-align-center">Chào mừng bạn đến với Yody</p>
-            <h1 class="text-align-center"><span>ĐĂNG</span><span>NHẬP</span></h1>
+            <h1 class="text-align-center"><span>ĐĂNG</span><span>KÍ</span></h1>
             <form action="?clt=user&active=dangki" method="post" onsubmit="return validate__login()"
                 class="form__login">
+                <div class="input-container">
+                    <div class="form">
+                        <input type="text" name="userName" id="userName" class="form_input" autocomplete="off"
+                            placeholder=" ">
+                        <label for="userName" class="form_label">Name</label>
+                        <div class="error__con"></div>
+                    </div>
+                </div>
                 <div class="input-container">
                     <div class="form">
                         <input type="email" name="email" id="email" class="form_input" autocomplete="off"
@@ -22,11 +30,11 @@
                         <div class="error__con"></div>
                     </div>
                 </div>
-                <button class="btn__summit" type="submit">Đăng Nhập</button>
+                <button class="btn__summit" type="submit">Đăng Kí</button>
             </form>
             <div class="layout ">
                 <hr>
-                <p>Hoặc đăng nhập bằng</p>
+                <p>Hoặc đăng kí bằng</p>
                 <hr>
             </div>
             <div class="face__gg">
@@ -40,7 +48,7 @@
                 </div>
             </div>
             <div class="location">
-                <h1>Bạn chưa có tài khoản? <a href="?clt=auth&action=register">Đăng Ký Ngay!</a></h1>
+                <h1>Bạn đã có tài khoản? <a href="?clt=auth&action=login">Đăng Nhập Ngay!</a></h1>
             </div>
         </div>
     </div>
