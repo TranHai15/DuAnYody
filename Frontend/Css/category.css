@@ -28,7 +28,7 @@ a {
 .intro__products {
   position: sticky;
   background-color: #fff;
-  z-index: 50;
+  z-index: 10;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;

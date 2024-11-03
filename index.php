@@ -14,6 +14,7 @@ switch ($url) {
     case "category":
         require_once FRONTEND . "category.php";
         break;
+        // Đăng nhập đăng kí
     case "auth":
         if (isset($_GET["clt"]) && $_GET["action"] == "login") {
             require_once FRONTEND . "login.php";
