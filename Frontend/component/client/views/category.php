@@ -159,24 +159,6 @@
                                             <a href="#">
                                                 <div class="size-circle">M</div>
 
-<<<<<<< HEAD
-                <div class="navigation">
-                    <h4><a href="#" class="navigation-home">Trang chủ</a></h4>
-                    <span class="navigation-next">></span>
-                    <h4 class="navigation-title">Nam</h4>
-                </div>
-                <div class="news">
-                    <h3>Nam</h3>
-                </div>
-                <div class="arrange">
-                    <h5>334 sản phẩm</h5>
-                    <div class="arrange-select">
-                        <button>Sắp xếp theo <span class="arrange-select-icon"><img src="Frontend/public/svg/filter.svg" alt=""></span></button>
-                        <div class="arrange-select-form">
-                            <div class="arrange-select-item">1</div>
-                            <div class="arrange-select-item">2</div>
-                            <div class="arrange-select-item">3</div>
-=======
                                             </a>
                                         </li>
                                         <li class="size-item">
@@ -405,7 +387,6 @@
                                     </ul>
                                 </div>
                             </div>
->>>>>>> 25266b53b043e8b57110559483ccfa92b2f43c3e
                         </div>
                     </div>
                 </div>
@@ -446,9 +427,6 @@
                                         src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
                                 </div>
                             </div>
-<<<<<<< HEAD
-                            <hr>
-=======
                             <span class="product__name">Áo Khoác Thể Thao Nữ Siêu Nhẹ Chống Tia UV</span>
                             <div class="product__price row align-items-center  ">
                                 <span class="price__new">599.000 đ</span>
@@ -506,7 +484,6 @@
                                 <span>-</span>5%
                             </div>
                         </article>
->>>>>>> 25266b53b043e8b57110559483ccfa92b2f43c3e
 
 
                     </section>
@@ -900,19 +877,12 @@
             </div>
 
         </div>
-<<<<<<< HEAD
-    </main>
-
-
-
-=======
     </div>
     </div>
     <div class="mt-4">
         <button class="row btn__view">Xem thêm</button>
     </div>
     <?php require_once(HF . "footer.php")  ?>
->>>>>>> 25266b53b043e8b57110559483ccfa92b2f43c3e
 </body>
 <script>
     function dropdao(element) {
