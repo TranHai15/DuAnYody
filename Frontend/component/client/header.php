@@ -219,12 +219,14 @@
                     <img loading="lazy" src="Frontend/public/svg/cart.svg" alt="Yody-cart">
                 </span>
                 <div class="user">
-                    <!-- <span class="header__user"> <img loading="lazy" src="Frontend/public/svg/account.svg"
-                                alt="Yody-user"></span> -->
+                    <a href="?clt=auth&action=login">
+                        <span class="header__user"> <img loading="lazy" src="Frontend/public/svg/account.svg"
+                                alt="Yody-user"></span>
+                    </a>
 
-                    <div class="header__user if_login_ok ">
+                    <!-- <div class="header__user if_login_ok ">
                         <img src="Frontend/public/svg/account.svg" alt="User Avatar" />
-                    </div>
+                    </div> -->
 
                     <div class="user-info-dropdown ">
                         <div class="user-info">
