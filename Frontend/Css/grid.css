@@ -38,6 +38,8 @@ body {
   height: 100vh;
 }
 
+/* Sản phẩm */
+
 .grid {
   width: 100%;
   display: block;
@@ -46,7 +48,8 @@ body {
 
 .grid.wide {
   max-width: 1332px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .align-items-center {
@@ -307,6 +310,14 @@ body {
   .l-10 {
     flex: 0 0 83.33333%;
     max-width: 83.33333%;
+  }
+  .l-6-2 {
+    flex: 0 0 47.66667%;
+    max-width: 47.66667%;
+  }
+  .l-10-9 {
+    flex: 0 0 89.6666%;
+    max-width: 89.6666%;
   }
 
   .l-11 {

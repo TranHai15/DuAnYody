@@ -28,8 +28,13 @@
                 </span>
                 <span>
                     <div class="dropdown">
-                        <button class="dropbtn">Sắp xếp theo <i class="fa-solid fa-angle-down"></i></button>
-                        <div class="dropdown-content">
+                        <button class="dropbtn row align-items-center ">
+                            <span>Sắp xếp theo</span>
+                            <span class="icon__bottom"><img src="Frontend/public/svg/buttonnext.svg" alt=""></span>
+                            <span class="icon__top icon__bottom display__none"><img
+                                    src="Frontend/public/svg/topnext.svg" alt=""></span>
+                        </button>
+                        <div class="dropdown__content display__none">
                             <a href="#">Nổi bật</a>
                             <a href="#">Mới nhất</a>
                             <a href="#">Giá từ thấp đến cao</a>
@@ -44,10 +49,14 @@
                         <span>Bộ Lọc</span>
                         <div>
                             <div class="list__sex">
-                                <div class="list__name" onclick="dropdao(this)">
-                                    Giới Tính <i class="fa-solid fa-angle-down"></i>
+                                <div class="list__name">
+                                    <span>Giới Tính</span>
+                                    <span class="icon__bottom--filter icon__bottom">
+                                        <img src="Frontend/public/svg/buttonnext.svg" alt="">
+                                    </span>
+
                                 </div>
-                                <div class="list__content--none">
+                                <div class="list__content--none display__none">
                                     <ul class="checkbox-list">
                                         <li class="checkbox-item">
                                             <a href="#">
@@ -72,8 +81,10 @@
                             </div>
                             <!-- //////////// -->
                             <div class="list__color">
-                                <div class="list__name" onclick="dropdao(this)">
-                                    Màu Sắc <i class="fa-solid fa-angle-down"></i>
+                                <div class="list__name">
+                                    Màu Sắc <span class="icon__bottom--filter icon__bottom">
+                                        <img src="Frontend/public/svg/buttonnext.svg" alt="">
+                                    </span>
                                 </div>
                                 <div class="list__content--none">
                                     <ul class="color-grid grid">
@@ -145,8 +156,10 @@
                             </div>
                             <!-- ++++++++++++++++ -->
                             <div class="list__size">
-                                <div class="list__name" onclick="dropdao(this)">
-                                    Kích thước <i class="fa-solid fa-angle-down"></i>
+                                <div class="list__name">
+                                    Kích thước <span class="icon__bottom--filter icon__bottom">
+                                        <img src="Frontend/public/svg/buttonnext.svg" alt="">
+                                    </span>
                                 </div>
                                 <div class="list__content--none">
                                     <ul class="size-grid grid">
@@ -361,8 +374,10 @@
                             </div>
                             <!-- ================= -->
                             <div class="list__price">
-                                <div class="list__name" onclick="dropdao(this)">
-                                    Theo giá <i class="fa-solid fa-angle-down"></i>
+                                <div class="list__name">
+                                    Theo giá <span class="icon__bottom--filter icon__bottom">
+                                        <img src="Frontend/public/svg/buttonnext.svg" alt="">
+                                    </span>
                                 </div>
                                 <div class="list__content--none">
                                     <ul class="checkbox-list">
@@ -871,11 +886,8 @@
 
 
                     </section>
-
-
                 </div>
             </div>
-
         </div>
     </div>
     </div>
@@ -885,19 +897,29 @@
     <?php require_once(HF . "footer.php")  ?>
 </body>
 <script>
-    function dropdao(element) {
-        const dropboloc = element.nextElementSibling;
-        const iconI = element.querySelector('.list__name > i');
+    const btn__drop = document.querySelector(".dropbtn")
+    btn__drop.addEventListener('click', () => {
+        const list__drop = document.querySelector(".dropdown__content")
+        list__drop.classList.toggle("display__none")
+        const icon__bottom = document.querySelector(".icon__bottom")
+        const icon__top = document.querySelector(".icon__top")
+        icon__top.classList.toggle("display__none")
+        icon__bottom.classList.toggle("display__none")
+    })
 
-        if (dropboloc.style.display === "block") {
-            dropboloc.style.display = "none";
-            iconI.style.animation = " xoayvong .8s linear 0s";
-        } else {
-            dropboloc.style.display = "block ";
-            iconI.style.animation = " xoayvong2 .8s linear 0s";
 
-        }
-    }
+
+    //  const 
+    const list__name = document.querySelectorAll('.list__name')
+    list__name.forEach((e) => {
+        e.addEventListener('click', () => {
+            const list__content__none = e.nextElementSibling
+            list__content__none.classList.toggle("display__none")
+            // console.log(icon__bottom)
+            // icon__bottom.classList.toggle("xoay")
+        })
+
+    })
 </script>
 
 
