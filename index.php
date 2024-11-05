@@ -17,6 +17,18 @@ switch ($url) {
     case "detail":
         require_once FRONTEND . "detail.php";
         break;
+    case "cart":
+        require_once FRONTEND . "cart.php";
+        break;
+    case "event":
+        require_once FRONTEND . "event.php";
+        break;
+    case "history":
+        require_once FRONTEND . "history.php";
+        break;
+    case "pay":
+        require_once FRONTEND . "pay.php";
+        break;
     case "auth":
         if (isset($_GET["clt"]) && $_GET["action"] == "login") {
             require_once FRONTEND . "login.php";

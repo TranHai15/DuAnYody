@@ -13,12 +13,14 @@
 <body>
     <?php require_once(HF . "header.php")  ?>
     <div>
-        <section class="banner banner__one grid wide">
-            <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2icqji8qcsbiegy6ildp-hlw-1800x833.png"
-                alt="" />
-            <span class="slide__show pre "><img src="Frontend/public/svg/pre.svg" alt="Pre"></span>
-            <span class="slide__show next"><img src="Frontend/public/svg/next.svg" alt="Next"></span>
-        </section>
+        <a href="?clt=event">
+            <section class="banner banner__one grid wide">
+                <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2icqji8qcsbiegy6ildp-hlw-1800x833.png"
+                    alt="" />
+                <span class="slide__show pre "><img src="Frontend/public/svg/pre.svg" alt="Pre"></span>
+                <span class="slide__show next"><img src="Frontend/public/svg/next.svg" alt="Next"></span>
+            </section>
+        </a>
         <main>
             <div class="grid wide ">
                 <h2 class="title text-align-center">Sản phẩm ưa chuộng</h2>
@@ -479,8 +481,7 @@
             </div>
             <section class="events__banner  grid wide">
                 <a href="#">
-                    <img
-                        src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/YODY%20x%20Wintel_893x598.jpg"
+                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/YODY%20x%20Wintel_893x598.jpg"
                         alt="" /></a>
                 <a href="#">
                     <img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/YODY_XANH%20SM_893x598.jpg"

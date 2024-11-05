@@ -1,7 +1,4 @@
 /* """""""""""""""""""""""""""""""""""BANNER""""""""""""""""""""""""""""""""""" */
-a {
-  display: inline-block;
-}
 
 .banner > img {
   width: 100%;
@@ -73,86 +70,6 @@ h2 {
 }
 
 /* """""""""""""""""""""""""""""""""""""""PRODUCT""""""""""""""""""""""""""""""""""""""" */
-
-.product {
-  position: relative;
-}
-
-.product__image > img,
-.overlay__image > img {
-  width: 100%;
-  object-fit: cover;
-}
-.product__image {
-  position: relative;
-  background-color: #000;
-}
-
-.overlay__image {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 40%;
-}
-
-.product__name {
-  width: 100%;
-  display: block;
-  padding: 1rem 0;
-  font-size: 14px;
-  color: var(--text);
-  font-weight: 400;
-  white-space: nowrap; /* Giữ nội dung trên một dòng duy nhất */
-  overflow: hidden; /* Ẩn phần nội dung bị tràn */
-  text-overflow: ellipsis; /* Hiển thị dấu ba chấm khi tràn */
-}
-
-.price__new {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.price__old {
-  font-size: 12px;
-  font-weight: 400;
-  color: var(--price__old);
-  margin-left: 2rem;
-  text-decoration: line-through;
-  display: inline-block;
-}
-
-.product__variation {
-  gap: 0.7rem;
-}
-
-.product__variation--item {
-  background-color: #4d4d;
-  width: 2.2rem;
-  height: 2.2rem;
-  border-radius: 50%;
-}
-
-.active__product--variation {
-  border: 1px solid #000;
-}
-
-.product__price {
-  padding: 0.3rem 0 1.4rem 0;
-}
-
-.product__logo--sale {
-  padding: 0.6rem 2.3rem;
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  width: 4rem;
-  height: 3rem;
-  background-color: var(--red);
-  color: white;
-  font-weight: 600;
-  border-radius: 15px;
-  font-size: 14px;
-}
 
 .btn__view {
   display: block;

@@ -23,7 +23,8 @@
     </div>
     <!-- main -->
     <div>
-        <main class="grid wide row justify-content-between mt-4">
+
+        <main class=" detail  grid wide row justify-content-between mt-4">
             <div class="l-6-2 row">
                 <div class="l-1 m-0 c-0"></div>
                 <div class="detail__left l-11 ">
@@ -175,12 +176,13 @@
                 <div class="l-1"></div>
             </div>
         </main>
+
         <!-- Cos theer ban se thich -->
-        <section>
+        <section class="canyoulikeit     grid wide">
             <h2>
                 Có thể bạn sẽ thích
             </h2>
-            <section class="products row  justify-content-between grid wide">
+            <section class="products row  justify-content-between ">
 
                 <article class="product l-3 m-4 c-12">
                     <a href="?clt=detail">
@@ -283,7 +285,7 @@
 
         </section>
     </div>
-
+    <?php require_once(HF . "footer.php")  ?>
 </body>
 
 

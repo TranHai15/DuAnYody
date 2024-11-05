@@ -257,7 +257,7 @@
   cursor: pointer;
 }
 
-.payment-methods {
+/* .payment-methods {
   padding: 3rem 0;
   background-color: rgba(238, 238, 238, 0.4);
   border-radius: 10px;
@@ -287,7 +287,7 @@
 .payment-methods > p {
   font-size: 12px;
   margin-top: 1rem;
-}
+} */
 
 .info__ship {
   display: flex;
@@ -302,4 +302,26 @@
 
 .info__ship span img {
   margin-right: 0.5rem;
+}
+
+/*  */
+
+.canyoulikeit > h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 5rem 0 2rem 0;
+}
+
+.canyoulikeit {
+  /* margin: 5rem 0; */
+  margin-bottom: 3rem;
+}
+
+.detail {
+  height: 90rem;
+}
+
+.detail__left {
+  position: sticky;
+  top: 7.4rem;
 }
