@@ -215,18 +215,20 @@
                     <input type="text" id="header__search--input " class="header__search--input"
                         placeholder="Tìm kiếm ">
                 </span>
-                <span class="header__cart">
-                    <img loading="lazy" src="Frontend/public/svg/cart.svg" alt="Yody-cart">
-                </span>
+                <a href="?clt=cart">
+                    <span class="header__cart">
+                        <img loading="lazy" src="Frontend/public/svg/cart.svg" alt="Yody-cart">
+                    </span>
+                </a>
                 <div class="user">
-                    <a href="?clt=auth&action=login">
+                    <!-- <a href="?clt=auth&action=login">
                         <span class="header__user"> <img loading="lazy" src="Frontend/public/svg/account.svg"
                                 alt="Yody-user"></span>
-                    </a>
+                    </a> -->
 
-                    <!-- <div class="header__user if_login_ok ">
+                    <div class="header__user if_login_ok ">
                         <img src="Frontend/public/svg/account.svg" alt="User Avatar" />
-                    </div> -->
+                    </div>
 
                     <div class="user-info-dropdown ">
                         <div class="user-info">
@@ -237,7 +239,7 @@
                             <div class="username">Ngoc Nho</div>
                         </div>
                         <ul class="user-options">
-                            <li><a href="/purchase-history">Lịch sử mua hàng</a></li>
+                            <li><a href="?clt=history">Lịch sử mua hàng</a></li>
                             <li><a href="/change-password">Thay đổi mật khẩu</a></li>
                             <li><a href="/settings">Cài đặt</a></li>
                             <li><a href="/logout">Đăng xuất</a></li>
@@ -248,6 +250,7 @@
             </span>
         </div>
     </header>
+    <!-- tim kiem  -->
     <div class="fame__search">
         <div class="header grid wide row justify-content-between align-items-center  ">
             <a href="#">

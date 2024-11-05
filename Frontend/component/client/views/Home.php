@@ -11,12 +11,14 @@
 <body>
     <?php require_once(HF . "header.php")  ?>
     <div>
-        <section class="banner banner__one grid wide">
-            <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2icqji8qcsbiegy6ildp-hlw-1800x833.png"
-                alt="" />
-            <span class="slide__show pre "><img src="Frontend/public/svg/pre.svg" alt="Pre"></span>
-            <span class="slide__show next"><img src="Frontend/public/svg/next.svg" alt="Next"></span>
-        </section>
+        <a href="?clt=event">
+            <section class="banner banner__one grid wide">
+                <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2icqji8qcsbiegy6ildp-hlw-1800x833.png"
+                    alt="" />
+                <span class="slide__show pre "><img src="Frontend/public/svg/pre.svg" alt="Pre"></span>
+                <span class="slide__show next"><img src="Frontend/public/svg/next.svg" alt="Next"></span>
+            </section>
+        </a>
         <main>
             <div class="grid wide ">
                 <h2 class="title text-align-center">Sản phẩm ưa chuộng</h2>
@@ -32,31 +34,35 @@
                 </section>
 
                 <section class="products row  justify-content-between grid wide">
+
                     <article class="product l-3 m-4 c-12">
-                        <div class="product__image">
-                            <img loading="lazy"
-                                src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-khoac-the-thao-nu-SKN7007-GNH%20(10).JPG"
-                                alt="" />
-                            <div class="overlay__image">
-                                <img loading="lazy" src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png"
-                                    alt="">
+                        <a href="?clt=detail">
+                            <div class="product__image">
+                                <img loading="lazy"
+                                    src="https://m.yodycdn.com/fit-in/filters:format(webp)/products/ao-khoac-the-thao-nu-SKN7007-GNH%20(10).JPG"
+                                    alt="" />
+                                <div class="overlay__image">
+                                    <img loading="lazy"
+                                        src="https://m.yodycdn.com/products/donggia_m1yi17yavizhqdvliui.png" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <span class="product__name">Áo Khoác Thể Thao Nữ Siêu Nhẹ Chống Tia UV</span>
-                        <div class="product__price row align-items-center  ">
-                            <span class="price__new">599.000 đ</span>
-                            <span class="price__old">3333</span>
-                        </div>
-                        <div class="product__variation row align-items-center">
-                            <span class="product__variation--item active__product--variation "></span>
-                            <span class="product__variation--item"></span>
-                            <span class="product__variation--item"></span>
-                            <span class="product__variation--item"></span>
-                        </div>
-                        <div class="product__logo--sale row align-items-center justify-content-center">
-                            <span>-</span>5%
-                        </div>
+                            <span class="product__name">Áo Khoác Thể Thao Nữ Siêu Nhẹ Chống Tia UV</span>
+                            <div class="product__price row align-items-center  ">
+                                <span class="price__new">599.000 đ</span>
+                                <span class="price__old">3333</span>
+                            </div>
+                            <div class="product__variation row align-items-center">
+                                <span class="product__variation--item active__product--variation "></span>
+                                <span class="product__variation--item"></span>
+                                <span class="product__variation--item"></span>
+                                <span class="product__variation--item"></span>
+                            </div>
+                            <div class="product__logo--sale row align-items-center justify-content-center">
+                                <span>-</span>5%
+                            </div>
+                        </a>
                     </article>
+
                     <article class="product l-3 m-4 c-12">
                         <div class="product__image">
                             <img loading="lazy"
@@ -472,17 +478,18 @@
 
             </div>
             <section class="events__banner  grid wide">
-                <a href="#" class=""><img
-                        src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/YODY%20x%20Wintel_893x598.jpg"
-                        alt="" srcset="" />
-                </a>
-                <a href="#"><img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/YODY_XANH%20SM_893x598.jpg
-          " srcset="" /></a>
-                <a href="#"><img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/Frame%2032%201.jpg"
-                        alt="" srcset="" /></a>
                 <a href="#">
-                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/Frame%2031%201.jpg" alt=""
-                        srcset="" /></a>
+                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/YODY%20x%20Wintel_893x598.jpg"
+                        alt="" /></a>
+                <a href="#">
+                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/YODY_XANH%20SM_893x598.jpg"
+                        alt="" /> </a>
+                <a href="#">
+                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/Frame%2032%201.jpg"
+                        alt="" /></a>
+                <a href="#">
+                    <img src="https://m.yodycdn.com/fit-in/filters:format(webp)//products/Frame%2031%201.jpg"
+                        alt="" /></a>
             </section>
             <section class="heading__one">
                 <h1>#Yody tự hào thương hiệu Việt</h1>
