@@ -14,9 +14,6 @@ switch ($url) {
     case "category":
         require_once FRONTEND . "category.php";
         break;
-<<<<<<< HEAD
-        // Đăng nhập đăng kí
-=======
     case "detail":
         require_once FRONTEND . "detail.php";
         break;
@@ -32,7 +29,6 @@ switch ($url) {
     case "pay":
         require_once FRONTEND . "pay.php";
         break;
->>>>>>> 8edabf051089daef8b42f3ed7c0f6ee9248ce422
     case "auth":
         if (isset($_GET["clt"]) && $_GET["action"] == "login") {
             require_once FRONTEND . "login.php";

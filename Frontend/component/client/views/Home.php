@@ -11,14 +11,30 @@
 <body>
     <?php require_once(HF . "header.php")  ?>
     <div>
-        <a href="?clt=event">
-            <section class="banner banner__one grid wide">
-                <img src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2icqji8qcsbiegy6ildp-hlw-1800x833.png"
-                    alt="" />
-                <span class="slide__show pre "><img src="Frontend/public/svg/pre.svg" alt="Pre"></span>
-                <span class="slide__show next"><img src="Frontend/public/svg/next.svg" alt="Next"></span>
-            </section>
-        </a>
+
+        <section class="banner banner__one grid wide">
+            <div class="slide-show">
+                <a href="?clt=event">
+                    <div class="list-images">
+                        <img
+                            src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2x3jeg96b3ndhya07k3110_1800x833.png"
+                            alt="" />
+                        <img
+                            src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2x4rdsb1ctzpyb9jii3110_1800x833-07.png"
+                            alt="" />
+                        <img
+                            src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2wotote0per2gcotuqa1800x833%20PC%20hero%20banner%2011.png"
+                            alt="" />
+                        <img
+                            src="https://m.yodycdn.com/fit-in/filters:format(webp)/fit-in/filters:format(webp)/products/m2x3jeg96b3ndhya07k3110_1800x833.png"
+                            alt="" />
+                    </div>
+                </a>
+            </div>
+            <span class="slide__show pre "><img src="Frontend/public/svg/pre.svg" onclick="pre()" alt="Pre"></span>
+            <span class="slide__show next"><img src="Frontend/public/svg/next.svg" onclick="next()" alt="Next"></span>
+        </section>
+
         <main>
             <div class="grid wide ">
                 <h2 class="title text-align-center">Sản phẩm ưa chuộng</h2>
@@ -522,6 +538,80 @@
         </main>
 
     </div>
+    <script>
+        const list = document.querySelector(".list-images");
+        const imgs = document.querySelectorAll(".list-images > img");
+        let current = 0;
+        let autoSlideInterval = setInterval(next, 4000); // Khởi động bộ đếm thời gian
+        let isTransitioning = false; // Biến kiểm tra quá trình chuyển động
+
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval); // Dừng bộ đếm hiện tại
+            autoSlideInterval = setInterval(next, 4000); // Thiết lập lại bộ đếm từ đầu
+        }
+
+        function next() {
+            if (isTransitioning) return; // Ngăn chuyển động khi đang trong quá trình chuyển ảnh
+            isTransitioning = true;
+
+            let width = imgs[0].offsetWidth;
+            current++;
+
+            // Dịch chuyển sang ảnh tiếp theo với hiệu ứng
+            list.style.transition = "transform 0.5s ease";
+            list.style.transform = `translateX(${width * -current}px)`;
+
+            // Khi đến ảnh bản sao cuối, chuyển nhanh về ảnh đầu
+            if (current === imgs.length - 1) {
+                setTimeout(() => {
+                    list.style.transition = "none"; // Xóa hiệu ứng
+                    list.style.transform = "translateX(0)"; // Quay lại ảnh đầu
+                    current = 0;
+                    isTransitioning = false; // Cho phép chuyển ảnh sau khi quay về đầu
+                }, 500); // Đợi cho hiệu ứng hoàn tất
+            } else {
+                // Cho phép chuyển ảnh sau khi hoàn tất hiệu ứng
+                setTimeout(() => {
+                    isTransitioning = false;
+                }, 500);
+            }
+
+            resetAutoSlide(); // Đặt lại bộ đếm sau khi chuyển ảnh
+        }
+
+        function pre() {
+            if (isTransitioning) return; // Ngăn chuyển động khi đang trong quá trình chuyển ảnh
+            isTransitioning = true;
+
+            let width = imgs[0].offsetWidth;
+
+            // Nếu đang ở ảnh đầu tiên và nhấn "pre", chuyển sang ảnh bản sao cuối
+            if (current === 0) {
+                current = imgs.length - 1;
+                list.style.transition = "none"; // Xóa hiệu ứng chuyển động
+                list.style.transform = `translateX(${width * -current}px)`;
+
+                // Sử dụng setTimeout để đợi áp dụng vị trí ảnh cuối, rồi dịch chuyển về ảnh cuối thực sự với hiệu ứng
+                setTimeout(() => {
+                    current = imgs.length - 2; // Ảnh cuối thực
+                    list.style.transition = "transform 0.5s ease"; // Hiệu ứng chuyển động
+                    list.style.transform = `translateX(${width * -current}px)`;
+                    isTransitioning = false; // Cho phép chuyển ảnh sau khi hoàn tất
+                }, 50); // Thời gian ngắn để di chuyển mà không thấy
+            } else {
+                // Chuyển ảnh thông thường về ảnh trước
+                current--;
+                list.style.transition = "transform 0.5s ease";
+                list.style.transform = `translateX(${width * -current}px)`;
+                setTimeout(() => {
+                    isTransitioning = false; // Cho phép chuyển ảnh sau khi hoàn tất hiệu ứng
+                }, 500);
+            }
+
+            resetAutoSlide(); // Đặt lại bộ đếm sau khi chuyển ảnh
+        }
+    </script>
+
 
     <?php require_once(HF . "footer.php")  ?>
 </body>

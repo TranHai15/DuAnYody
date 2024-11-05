@@ -173,7 +173,7 @@ a {
   }
 }
 
-.overlay {
+/* .overlay {
   position: fixed;
   top: 7.1rem;
   left: 0;
@@ -183,7 +183,7 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
   z-index: 10;
-}
+} */
 
 .menu-item:hover .menu__list--cha {
   animation: menuHover 0.2s ease-in-out forwards;
